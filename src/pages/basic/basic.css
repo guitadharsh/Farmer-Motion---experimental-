@@ -1,0 +1,33 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container button {
+    height: 1.5rem;
+    width: 6rem;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.container__box {
+    height: 15rem;
+    width: 15rem;
+    border-radius: .3rem;
+    background-color: white;
+    margin-top: 2rem;
+}

@@ -1,0 +1,25 @@
+.anim {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.anim__button button {
+    height: 3rem;
+    width: 8rem;
+    background-color: rgb(199, 2, 2);
+    border-radius: 1.2rem;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.anim_box {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin-top: 1rem;
+}

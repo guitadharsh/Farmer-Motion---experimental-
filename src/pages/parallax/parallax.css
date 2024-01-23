@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.parallax {
+    width: 100%;
+    height: 110vh;
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.parallax__heading {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 12rem;
+    background: transparent;
+    inset: 0;
+}
+
+.parallax__front {
+    position: absolute;
+    z-index: 3;
+    background-position: 20% 50%;
+    background-size: cover;
+    inset: 0;
+}
+
+.parallax__back {
+    position: absolute;
+    z-index: 0;
+    background-position: center bottom;
+    background-size: cover;
+    inset: 0
+}

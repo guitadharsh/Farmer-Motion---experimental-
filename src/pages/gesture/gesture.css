@@ -1,0 +1,41 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    height: 30rem;
+    width: 20rem;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid white;
+}
+
+.card__header {
+    color: black;
+    font-size: 3rem;
+    background: transparent;
+}
+
+.card__image {
+    height: inherit;
+    width: inherit;
+}
+
+.card__image img {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+}
+
